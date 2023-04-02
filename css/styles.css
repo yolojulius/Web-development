@@ -1,26 +1,78 @@
-body {
-    background-color: #EAF6F6;
-}
-
 /*********************TAG SELECTOR*******************/
 /* Can use pseudo class like hover to change style */
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 5px;
-    width: 5%;
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
-h1, h3 {
-    color: #66BFBF
+h1 {
+    margin-top: 0px;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 50px auto;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 
 /**********************CLASS SELECTOR (Group)*******************/
 /* Overrides tag selector, can have more than one class in element */
 /* .class {} */
+.top-container {
+    background-color: #E4F9F5;
+    margin: 0px;
+    padding: 50px;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+}
+
+.top-cloud {
+    position: relative;
+    left: 350px;
+}
+
 .circular {
     border-radius: 100%;
+    width: 400px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilli-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 }
 
 /**********************ID SELECTOR (Specific, must be unique)**********************/
